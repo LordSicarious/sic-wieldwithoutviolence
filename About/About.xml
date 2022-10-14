@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[SIC] Wield Without Violence</name>
+  <author>Sicarious</author>
+	<supportedVersions>
+	<li>1.3</li>
+	</supportedVersions>
+	<packageId>SIC.Core.WieldWithoutViolence</packageId>
+	<description>Allows pawns that are incapable of violence to equip weapons, even though they can't use them. This allows pacifists to benefit from weapons like Eltex Staves and Persona Weapons, and also enjoy the mood offset from wielding preferred weapons with ideology. If the pawn can't equip the weapon for some other reason, such as role or having no hands, this does not help.</description>
+  	<modDependencies>
+	  	<li>
+  			<packageId>brrainz.harmony</packageId>
+  			<displayName>Harmony</displayName>
+			  <downloadUrl>https://github.com/pardeike/HarmonyRimWorld</downloadUrl>
+  		</li>
+  	</modDependencies>
+  	<loadAfter>
+  		<li>brrainz.harmony</li>
+  		<li>Ludeon.RimWorld.Ideology</li>
+  	</loadAfter>
+</ModMetaData>
